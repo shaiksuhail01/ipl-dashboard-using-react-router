@@ -1,0 +1,62 @@
+.matchCard {
+  background-color: #0f172a;
+  width: 150px;
+  height: 240px;
+  border-radius: 12px;
+  border-width: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  margin: 12px;
+}
+
+.matchCardTeamName {
+  font-family: 'Bree Serif';
+  font-size: 13px;
+  font-weight: 500;
+  text-align: center;
+  color: #ffffff;
+}
+.secondImage {
+  width: 38px;
+}
+.matchCardPara {
+  font-family: 'Bree Serif';
+  font-size: 10px;
+  font-weight: 500;
+  text-align: center;
+  color: #ffffff;
+}
+.matchWonORLoseText {
+  font-family: 'Bree Serif';
+  font-size: 13px;
+  font-weight: 500;
+  text-align: center;
+  color: #ffffff;
+}
+.redBackground {
+  color: #e31a1a;
+}
+.greenBackground {
+  color: #18ed66;
+}
+@media screen and (min-width: 768px) {
+  .secondImage {
+    width: 85px;
+  }
+  .matchCardPara {
+    font-size: 14px;
+  }
+  .matchWonORLoseText {
+    font-size: 20px;
+  }
+  .matchCard {
+    width: 210px;
+    height: 350px;
+  }
+  .matchCardTeamName {
+    font-size: 18px;
+  }
+}
